@@ -6,8 +6,8 @@ Projeto de um sistema de cadastro de pessoas
 
 - [Java](https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
 - [Spring Boot](https://spring.io/projects/spring-boot)
-- [MySql](https://www.mysql.com/)
-- [Bootstrap] ()
+- [MYSQL](https://www.mysql.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Screens do Projeto:
 
