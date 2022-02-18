@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang=”pt-br” xmlns:th="http://thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=EB+Garamond:ital@0;1&display=swap');
+</style>
+<title>Sistema de Cadastro - Crud</title>
+
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap para testes, apagar depois que configurar thymeleaf-->
+<link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+
+</head>
+
+<body>
+
+	<header>
+
+		<nav class="navbar navbar-expand-lg navbar-green bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="/">Sistema de Cadastro</a>
+				<button class="navbar-toggler" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="/">Página Inicial</a></li>
+						<li class="nav-item"><a class="nav-link" href="/funcionarios">
+								Listar</a></li>
+						<li class="nav-item"><a class="nav-link"
+							href="/cadastrarFuncionario"> Cadastrar</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+
+	<div class="container">
+		<br> <br>
+		<div class="col">
+			<div class="card text-center">
+				<div class="card-header  card-title">
+					<h3>Pessoas</h3>
+				</div>
+				<div class="card-body">
+					<p class="card-text">Selecione a opção</p>
+					<a href="/funcionarios" class="btn btn-primary">Listar </a> <a
+						href="/cadastrarFuncionario" class="btn btn-success">Cadastrar
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div style="height: 100px;"></div>
+
+
+	
+
+	<!--JavaScript bootstrap-->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous">
+		
+	</script>
+</body>
+
+</html>
