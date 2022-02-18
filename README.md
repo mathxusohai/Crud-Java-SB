@@ -14,8 +14,8 @@ Projeto de um sistema de cadastro de pessoas
 
 Screen1:
 
-![listar]()
+![Listando os dados](https://github.com/mathxusohai/pessoaPI/blob/master/screens/print1.png?raw=true)
 
 Screen2:
 
-![cadastrar]()
+![Cadastrando ](https://github.com/mathxusohai/pessoaPI/blob/master/screens/print2.png?raw=true)
